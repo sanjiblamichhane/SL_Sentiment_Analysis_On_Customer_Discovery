@@ -1,0 +1,37 @@
+% ================= Document Class ==========
+%\documentclass[letterpaper, 12pt]{article}
+\documentclass[letterpaper, 12pt]{IEEEtran}
+\include{./packages}
+
+\begin{document}
+	%% ==============  front matter ================
+%	\subfile{./TeX_files/frontmatter/coverPage}
+	\subfile{./TeX_files/frontmatter/title} %use this if skipping cover page
+
+%	\tableofcontents
+	\newpage
+	\subfile{./TeX_files/frontmatter/abstract}
+%	\newpage
+	%%================ mainmatter =================
+%	\subfile{./TeX_files/mainmatter/sections/objectives}
+	\subfile{./TeX_files/mainmatter/sections/introduction}
+	\subfile{./TeX_files/mainmatter/sections/images}
+	\subfile{./TeX_files/mainmatter/sections/conclusion}		
+	%%====================Backmatter ============
+	\newpage
+	\bibliography{references.bib}
+%	\bibliographystyle{apacite}
+	\newpage
+	%%===================  Appendix==============
+	\appendix
+%	\subfile{./TeX_files/backmatter/appendices/appendixA}
+	%	\subfile{./TeX_files/backmatter/appendices/appendixB}
+	%	\subfile{./TeX_files/backmatter/appendices/appendixC}
+	%========== Bio ============================
+	\subfile{./TeX_files/backmatter/bio/SL_bio}
+	%================ backpage =============
+	\newpage
+	\subfile{./TeX_files/backmatter/backcover/copyright}
+	\subfile{./TeX_files/backmatter/backcover/versionHistory}
+	
+\end{document}          
