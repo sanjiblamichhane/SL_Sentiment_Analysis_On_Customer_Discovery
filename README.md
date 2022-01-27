@@ -1,5 +1,5 @@
 > Project Status [ In Progress ] </br>
-> Latest Version 1.0.0 
+> Latest Version 1.0.1 
 
 # Sentiment Analysis on Customer Discovery Data For Start Up
 
