@@ -2,7 +2,7 @@
 > Latest Version 1.0.1 
 
 # Sentiment Analysis on Customer Discovery Data For Start Up
-
+![image](https://user-images.githubusercontent.com/43303294/152436235-9661cda5-23d5-4f38-aeb5-89b0bda55fed.png)
 
 ## Results:
 1. 0.0301020408 </br>
